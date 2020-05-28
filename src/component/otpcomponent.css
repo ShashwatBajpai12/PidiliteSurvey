@@ -1,0 +1,24 @@
+.parent-div {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button-div {
+  margin-top: 20px;
+}
+.button-div input {
+  /* You Can Name it what you want*/
+  margin-right: 16px;
+}
+.button-div input:last-child {
+  margin-right: 0px;
+  /*so the last one dont push the div thas giving the space only between the inputs*/
+}
+.imgPidi {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

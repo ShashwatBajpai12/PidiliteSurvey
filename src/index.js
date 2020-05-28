@@ -3,11 +3,12 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import LoginComponent from "./component/loginComponent";
+import RoutesComponent from "./component/routesComponent";
+import "../node_modules/bootstrap/dist/css/bootstrap.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <LoginComponent />
+    <RoutesComponent />
   </React.StrictMode>,
   document.getElementById("root")
 );
